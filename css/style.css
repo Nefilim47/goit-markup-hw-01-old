@@ -1,0 +1,82 @@
+:root{
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+
+}
+
+.page{
+    background-color: #E7E9FC;
+    color: var(--primary-text-color);
+    font-family: Roboto;
+}
+.list{
+    list-style: none;
+}
+
+/* Navigation */
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.second-logo {
+    color: #4D5AE5;
+}
+
+.site-navigation .link {
+    color: var(--title-text-color);
+}
+
+.site-info a {
+    color: var(--primary-text-color);
+}
+
+/* Main */
+
+.section-tittle {
+    color: var(--title-text-color);
+}
+
+/* Section 1 */
+
+.hero {
+    background-color: #2E2F42;
+}
+.hero-tittle {
+    color: #FFFFFF;
+}
+.virtues-list .title {
+    color: var(--title-text-color);;
+}
+
+.virtues-list .paragraf {
+    color: var(--primary-text-color);;
+}
+.our-teacher .title{
+    color: var(--title-text-color);
+}
+.our-teacher .description-teacher{
+    columns: var(--primary-text-color);
+}
+/* Footer */
+.description {
+    color: #E7E9FC;
+}
+
+/* =======PORTFOLIO======== */
+/* Butoon */
+
+.button-filter {
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+}
+.button-filter:hover,
+.button-filter:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
